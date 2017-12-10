@@ -1,0 +1,31 @@
+/* _sidebar.scss Document */
+
+.l-sidebar{
+	width:320px;
+	flex-shrink: 0;
+	flex-basis: 320px;
+	background-color: rgba(255, 255, 255, 1);
+	border-radius: 4px;
+	border:1px solid rgb(39, 71, 98);
+	margin-top:22px;
+	padding:9px;
+}
+.l-sidebar h2{
+  display: none;
+}
+.l-sidebar h3{
+  font-size:12px;
+  border-bottom: 1px solid rgb(55, 100, 134);
+}
+.l-sidebar li{
+  list-style: none;
+}
+@media screen and (min-width:$sm){
+	.l-sidebar{
+	}
+}
+@media screen and (min-width:$lg){
+	.l-sidebar{
+	}
+}
+

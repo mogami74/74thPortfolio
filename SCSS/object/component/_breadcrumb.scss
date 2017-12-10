@@ -1,0 +1,27 @@
+/* _breadcrumb.scss Document */
+
+$breadcrumb-size:90px;
+
+
+.c-breadcrumb{
+	font-size: 9px;
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 8px;
+}
+.c-breadcrumb li{
+  list-style: none;
+}
+.c-breadcrumb-item{
+	display:inline-flex;
+	width:$breadcrumb-size;
+	height:$breadcrumb-size;
+	line-height: 140%;
+	margin:0 2px;
+	align-items: flex-end;
+	padding: 10px;
+  background-color: rgb(40,72,97);
+  color:rgb(240,240,240);  
+}
+.c-breadcrumb-item::after{
+}
